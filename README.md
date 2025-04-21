@@ -1,24 +1,25 @@
-## 💻 Tech Stack Visual
+## 💻 Tech Stack
 
-![Tech Stack](./public/techstack.png)
+![Tech Stack](https://github.com/user-attachments/assets/4ad734c9-1116-405f-b48a-77979033dbe1)
 
 ---
 
 ## 🖥️ Tela Grande (Desktop)
 
-![Tela Grande](./public/telagrande.png)
+![Tela Grande](https://github.com/user-attachments/assets/4f83fae4-4d20-497a-a0f2-e897a0850c3f)
 
 ---
 
 ## 📱 Tela Pequena (Mobile)
 
-![Tela Pequena](./public/telapequena.png)
+![Tela Pequena](https://github.com/user-attachments/assets/4b817682-45bf-4259-8cfc-a5ad01e81cf2)
 
 ---
 
-## 📦 Backend no Sanity
+## 📦 Organização dos Produtos no Sanity
 
-![Sanity Backend](./public/sanitybackend.png)
+![Sanity](https://github.com/user-attachments/assets/89a90034-ce8d-485d-8011-b812e3b51731)
+
 
 
 
