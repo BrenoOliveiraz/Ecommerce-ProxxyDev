@@ -1,3 +1,28 @@
+## 💻 Tech Stack Visual
+
+![Tech Stack](./public/techstack.png)
+
+---
+
+## 🖥️ Tela Grande (Desktop)
+
+![Tela Grande](./public/telagrande.png)
+
+---
+
+## 📱 Tela Pequena (Mobile)
+
+![Tela Pequena](./public/telapequena.png)
+
+---
+
+## 📦 Backend no Sanity
+
+![Sanity Backend](./public/sanitybackend.png)
+
+
+
+
 Proxxy Ecommerce 
 
 
