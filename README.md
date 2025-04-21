@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Ecommerce Project with Sanity, Next.js, Framer Motion, and Clerk
+Este repositório contém um ecommerce em desenvolvimento, utilizando as tecnologias Sanity, Next.js 15, Framer Motion, TypeScript, Clerk, e Shadcn UI. O projeto foi desenvolvido como parte de um teste técnico e, devido a alguns desafios externos, ainda está em andamento.
 
-## Getting Started
+Tecnologias Usadas
+* Sanity: Utilizado como CMS para gerenciamento de produtos, categorias e dados do backend. A escolha do Sanity permite flexibilidade e fácil integração com o Next.js.
 
-First, run the development server:
+* Next.js 15: Framework de React que proporciona renderização do lado servidor (SSR) e otimização de performance. Utilizei novas funcionalidades do Next, como o sistema de forms com action para search.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Framer Motion: Biblioteca para animações fluidas e interações no frontend.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* TypeScript: Utilizado para garantir tipagem estática e segurança no código.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Clerk: Utilizado para autenticação de usuários, fornecendo um sistema de login e registro simples e seguro.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Shadcn UI: Biblioteca de componentes de UI estilizados, que facilita a criação de interfaces de usuário responsivas e elegantes.
 
-## Learn More
+Funcionalidades Implementadas
+* Catálogo de Produtos: Página principal com um grid de produtos, onde o usuário pode visualizar produtos disponíveis para compra.
 
-To learn more about Next.js, take a look at the following resources:
+* Página de Detalhes do Produto: Exibição detalhada dos produtos, com informações como preço, descrição e imagens.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Autenticação de Usuário: Sistema de login e registro de usuários utilizando o Clerk.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Animações no Frontend: Animações de entrada e transição suave utilizando Framer Motion.
 
-## Deploy on Vercel
+* Responsividade: Utilização de Tailwind CSS para garantir uma experiência de usuário responsiva, especialmente em dispositivos móveis.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Search Form: Implementação do novo sistema de forms com action do Next.js para realizar buscas no catálogo.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desafios e Dificuldades
+Durante o desenvolvimento, enfrentei alguns desafios relacionados ao acesso a APIs externas:
+
+APIs Fora do Ar: As APIs fornecidas estavam fora do ar, o que me fez revisar a arquitetura do backend e buscar alternativas dentro do próprio Sanity para gerenciamento dos dados do ecommerce.
+
+Site da Submarino Fora do Ar: O site da Submarino, que era uma das fontes de dados para o projeto, não estava mais disponível.
+
+Tempo Limitado: Estive viajando e só consegui retornar no dia do prazo final, o que impactou o tempo disponível para finalizar o projeto. Apesar disso, consegui implementar as funcionalidades principais e deixar o projeto em um estado funcional, mas ainda há algumas melhorias e ajustes a serem feitos.
+
+Decisões de Arquitetura
+1. Sanity como Backend:
+A escolha do Sanity para gerenciar os dados do ecommerce foi estratégica devido à sua flexibilidade e facilidade de integração com o Next.js. Ele me permite alterar e gerenciar os produtos de maneira eficiente através de um CMS, e a estrutura de GROQ queries facilita a busca e a manipulação dos dados.
+
+2. Uso do Framer Motion:
+As animações são uma parte importante da experiência de usuário em um ecommerce. Decidi usar o Framer Motion para garantir transições suaves e interações visuais atrativas para os usuários, especialmente ao exibir produtos e quando o usuário interage com o grid de produtos.
+
+3. UI com Shadcn UI:
+Utilizei Shadcn UI para criar uma interface de usuário com componentes modernos e estilosos, como botões, inputs e cards de produtos, aproveitando sua integração com Tailwind CSS para garantir uma aparência consistente e responsiva.
+
+Melhorias Futuras
+Implementação de Carrinho
+
+Otimização de Performance: Melhorar a performance em telas com muitos produtos, utilizando técnicas como lazy loading e otimização de imagens.
+
+Testes e Validação: Adicionar mais testes unitários e de integração para garantir que as funcionalidades principais estão funcionando conforme o esperado.
+
+Design Responsivo: Melhorar o design responsivo para garantir uma boa experiência de usuário em todos os dispositivos.
