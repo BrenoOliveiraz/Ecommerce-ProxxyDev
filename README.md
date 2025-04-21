@@ -1,4 +1,6 @@
-Ecommerce Project with Sanity, Next.js, Framer Motion, and Clerk
+Proxxy Ecommerce 
+
+
 Este repositório contém um ecommerce em desenvolvimento, utilizando as tecnologias Sanity, Next.js 15, Framer Motion, TypeScript, Clerk, e Shadcn UI. O projeto foi desenvolvido como parte de um teste técnico e, devido a alguns desafios externos, ainda está em andamento.
 
 Tecnologias Usadas
