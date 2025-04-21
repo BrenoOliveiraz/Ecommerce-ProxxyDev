@@ -30,6 +30,7 @@ Funcionalidades Implementadas
 * Search Form: Implementação do novo sistema de forms com action do Next.js para realizar buscas no catálogo.
 
 Desafios e Dificuldades
+
 Durante o desenvolvimento, enfrentei alguns desafios relacionados ao acesso a APIs externas:
 
 APIs Fora do Ar: As APIs fornecidas estavam fora do ar, o que me fez revisar a arquitetura do backend e buscar alternativas dentro do próprio Sanity para gerenciamento dos dados do ecommerce.
