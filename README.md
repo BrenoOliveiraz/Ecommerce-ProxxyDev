@@ -1,24 +1,22 @@
 ## 💻 Tech Stack
 
-![Tech Stack](https://github.com/user-attachments/assets/4ad734c9-1116-405f-b48a-77979033dbe1)
+<img src="https://github.com/user-attachments/assets/4ad734c9-1116-405f-b48a-77979033dbe1" alt="Tech Stack" width="400"/>
 
 ---
 
-## 🖥️ Tela Grande (Desktop)
+## 🖥️ Tela Grande e 📱 Tela Pequena
 
-![Tela Grande](https://github.com/user-attachments/assets/4f83fae4-4d20-497a-a0f2-e897a0850c3f)
-
----
-
-## 📱 Tela Pequena (Mobile)
-
-![Tela Pequena](https://github.com/user-attachments/assets/4b817682-45bf-4259-8cfc-a5ad01e81cf2)
+<div style="display: flex; gap: 16px;">
+  <img src="https://github.com/user-attachments/assets/4f83fae4-4d20-497a-a0f2-e897a0850c3f" alt="Tela Grande" width="400"/>
+  <img src="https://github.com/user-attachments/assets/4b817682-45bf-4259-8cfc-a5ad01e81cf2" alt="Tela Pequena" width="200"/>
+</div>
 
 ---
 
 ## 📦 Organização dos Produtos no Sanity
 
-![Sanity](https://github.com/user-attachments/assets/89a90034-ce8d-485d-8011-b812e3b51731)
+<img src="https://github.com/user-attachments/assets/89a90034-ce8d-485d-8011-b812e3b51731" alt="Sanity" width="400"/>
+
 
 
 
