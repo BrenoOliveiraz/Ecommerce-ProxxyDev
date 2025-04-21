@@ -74,6 +74,7 @@ As animações são uma parte importante da experiência de usuário em um ecomm
 Utilizei Shadcn UI para criar uma interface de usuário com componentes modernos e estilosos, como botões, inputs e cards de produtos, aproveitando sua integração com Tailwind CSS para garantir uma aparência consistente e responsiva.
 
 Melhorias Futuras
+
 Implementação de Carrinho
 
 Otimização de Performance: Melhorar a performance em telas com muitos produtos, utilizando técnicas como lazy loading e otimização de imagens.
