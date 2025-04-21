@@ -81,3 +81,13 @@ Otimização de Performance: Melhorar a performance em telas com muitos produtos
 Testes e Validação: Adicionar mais testes unitários e de integração para garantir que as funcionalidades principais estão funcionando conforme o esperado.
 
 Design Responsivo: Melhorar o design responsivo para garantir uma boa experiência de usuário em todos os dispositivos.
+
+### Como Rodar o Projeto
+
+**Importante**: O backend (Sanity) está configurado em minha máquina local, e pode ser mais fácil se o avaliador agendar uma call para explicações sobre a configuração do backend.
+
+---
+
+### Agradecimentos
+
+Agradeço pela oportunidade de participar desse processo e estou à disposição para esclarecer qualquer dúvida. 😊
