@@ -10,7 +10,7 @@ export default function ProductsView({ products, categories }: ProductsViewProps
     return (
         <div className="flex flex-col">
             <div className="w-full sm:w-[200px]">
-                {/* <CategoriesSelectorComponent /> */}
+                <CategoriesSelectorComponent categories={categories} />
             </div>
 
             <div className="flex-1">
