@@ -55,7 +55,7 @@ export default function Header() {
 
 
         </Form>
-
+      
         <div className='flex items-center space-x-4 mt-4 sm:mt-0 flx-1 sm:flex-none'>
           <Link href='/basket'
             className='relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'

@@ -57,7 +57,7 @@ export const useBasketStore = create<BasketState>()(
             getGroupedItems: () => get().items,
         }),
         {
-            name: 'basket-store', // name of the item in the storage (must be unique)
+            name: 'basket-store', 
         },
     ),
 )
