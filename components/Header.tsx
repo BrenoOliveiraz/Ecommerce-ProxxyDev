@@ -25,7 +25,7 @@ export default function Header() {
           href='/'
         >
 
-          Proxxy Dev
+         VISCERAL
 
         </Link>
         <Form
