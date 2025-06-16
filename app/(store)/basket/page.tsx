@@ -139,7 +139,7 @@ export function BasketPage() {
                 </div>
 
                 <div className="h-64 lg:h-0">
-                    {/* Spacer to ensure scroll on mobile devices */}
+                    {/* Spacer  */}
                 </div>
             </div>
         </div>

@@ -14,6 +14,6 @@ export const getAllCategories = async () => {
         return categories.data || [];
     } catch (error) {
         console.log('Erro no fetching', error)
-        return []; // bom retornar algo mesmo no erro
+        return []; 
     }
 }
