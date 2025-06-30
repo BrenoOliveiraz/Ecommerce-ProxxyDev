@@ -5,7 +5,8 @@ import React from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import ProductCard from './ProductCard'
 
-export default function ProductGrid({ products }: { products: Product }) {
+export default function ProductGrid({ products }: { products: Product[] }) {
+
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-4">
             {products.map((product) => (

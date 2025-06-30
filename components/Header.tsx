@@ -75,7 +75,7 @@ export default function Header() {
             <SignedIn>
 
               <Link href='/orders'
-                className='flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+                className='flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer'>
                 <PackageIcon className='w-6 h-6' />
                 <span>My orders</span>
 
@@ -84,7 +84,7 @@ export default function Header() {
             </SignedIn>
 
             {user ? (
-              <div className='flex items-center space-x-2'>
+              <div className='flex items-center space-x-2 '>
                 <UserButton />
                 <div className='hidden sm:block text-xs'>
                   <p className='text-gray-400'>Welcome Back</p>

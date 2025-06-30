@@ -91,7 +91,7 @@ export type Order = {
   _rev: string;
   orderNumber?: string;
   stripeCheckoutSessionId?: string;
-  stripeCostumerId?: string;
+  stripeCustomerId?: string;
   clerkUserId?: string;
   customerName?: string;
   email?: string;

@@ -10,7 +10,7 @@ import { imageUrl } from '@/lib/imageUrl';
 import Loader from '@/components/Loader';
 import { createCheckOutSession, Metadata } from '@/actions/createCheckoutSession';
 
-export function BasketPage() {
+export default function BasketPage() {
     const groupedItems = useBasketStore((state) => state.getGroupedItems());
     const { isSignedIn } = useAuth();
     const { user } = useUser();
@@ -146,4 +146,4 @@ export function BasketPage() {
     );
 }
 
-export default BasketPage;
+
